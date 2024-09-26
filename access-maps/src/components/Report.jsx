@@ -4,8 +4,6 @@ import Drawer from '@mui/material/Drawer';
 import cancelIcon from "../images/Cancel.svg"
 import undoIcon from "../images/Undo.svg"
 import confirmIcon from "../images/Checkmark.svg"
-import test from "../images/ElevatorMarkerUnsure.svg"
-import test2 from "../images/UndoTest.svg"
 
 const buttonProps = {
 	border: '2px solid black',
@@ -24,7 +22,6 @@ const reportActionButton = {
 
 const Report = (props) => {
     const [open, setOpen] = useState(false);
-	const [visible, setVisible] = useState(false);
 
     const toggleReportDrawer = (isOpen) => () => {
         setOpen(isOpen);
@@ -41,7 +38,6 @@ const Report = (props) => {
 		//setCenter(testPos);
         // Close the drawer
         setOpen(false);
-        setVisible(true);
       };
 
 	const handleReportAction = (type) => {
