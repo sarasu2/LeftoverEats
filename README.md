@@ -1,7 +1,7 @@
 # LeftoverEats
 A github for leftover eats project
 
-# Currently not deployed and may not work because of Google Cloud API expired
+# Currently not deployed and may not work because Google Cloud API expired
 
 # To compile and run this project
 1) Clone the Repository
