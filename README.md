@@ -1,7 +1,7 @@
 # LeftoverEats
 A github for leftover eats project
 
-# Live Deployment: https://access-maps-react-ig3e5tlrma-uc.a.run.app/
+# Currently not deployed and may not work because of Google Cloud API expired
 
 # To compile and run this project
 1) Clone the Repository
